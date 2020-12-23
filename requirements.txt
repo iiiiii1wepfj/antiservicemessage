@@ -1,2 +1,2 @@
-pyrogram
+pip3 install -U git+https://github.com/pyrogram/pyrogram.git
 tgcrypto
