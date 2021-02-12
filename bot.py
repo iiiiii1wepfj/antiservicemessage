@@ -10,7 +10,7 @@ token = "bot token"
 
 
 
-app = Client("antiservicemessage", api_id, api_hash, bot_token=token)
+app = Client(':memory:', api_id, api_hash, bot_token=token)
 
 DONATESTARTTEXT = """
 text  
