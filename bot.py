@@ -2,14 +2,14 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 
-api_id = your api id
-api_hash = "your api hash"
-token = "bot token"
+api_id: int = your api id
+api_hash: str = "your api hash"
+token: str = "bot token"
 
 
 app = Client(":memory:", api_id, api_hash, bot_token=token)
 
-DONATESTARTTEXT = """
+DONATESTARTTEXT: str = """
 text  
 """
 
