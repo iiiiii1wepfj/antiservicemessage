@@ -7,7 +7,7 @@ api_hash: str = "your api hash"
 token: str = "bot token"
 
 
-app = Client(":memory:", api_id, api_hash, bot_token=token)
+app = Client('antiservicebot', in_memory=True, api_id, api_hash, bot_token=token)
 
 DONATESTARTTEXT: str = """
 text  
