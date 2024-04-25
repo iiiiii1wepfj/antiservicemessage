@@ -8,6 +8,10 @@ anti service message bot in pyrogram
  git clone https://github.com/iiiiii1wepfj/antiservicemessage.git
  
  cd antiservicemessage
+
+ python3 -m venv .venv
+
+ source .venv/bin/activate
  
  pip3 install -U -r requirements.txt
  
