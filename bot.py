@@ -1,5 +1,5 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
+from hydrogram import Client, filters
+from hydrogram.types import Message
 
 
 api_id: int = your api id
